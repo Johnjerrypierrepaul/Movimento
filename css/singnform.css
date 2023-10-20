@@ -71,11 +71,12 @@ body{
  
  }
  #nome{
-     width: 371px;
+     width: 300px;
      height: 25px;
      border-radius: 16px;
  }
  #email{
+    width: 120px;
      height: 25px;
      border-radius: 16px;
  }
@@ -91,6 +92,7 @@ body{
      left: 200px;
      top: -45px;
      height: 25px;
+     width: 120px;
      border-radius: 16px;
  }
  #lsex{
@@ -101,7 +103,7 @@ body{
  #ssex{
      position: relative;
      top: -20px; 
-     width: 175px;
+     width: 120px;
      height: 20px; 
      height: 26px;  
      border-radius: 16px;  
@@ -110,14 +112,14 @@ body{
      position: relative;
      top: -66px;
      left: 200px;
-     width: 171px;
+     width: 120px;
      height: 26px;  
      border-radius: 16px; 
  }
  #nascimento{
      position: relative;
      top: -40px;
-     width: 170px;
+     width: 120px;
      height: 23px; 
      border-radius: 16px;  
  }
@@ -125,7 +127,7 @@ body{
      position: relative;
      top: -94px;
      left: 198px;
-     width: 171px;
+     width: 130px;
      height: 26px; 
      border-radius: 16px;  
  }
@@ -145,7 +147,7 @@ body{
  }
  #savebtn{
      position: relative;
-     right:-300px;
+     right:-180px;
      padding: 8px;
      border-radius: 6px;
      color: black;

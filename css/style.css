@@ -23,8 +23,8 @@ section#login{
     left: 50%;
     overflow: hidden;
     background-color: white;
-    width: 460px;
-    height: 576px;
+    width: 350px;
+    height: 600px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.409);
     transition: width .4s , height .4s;
@@ -69,7 +69,7 @@ padding: 10px;
     background-color: #b6ce2e;
  }
 form > input[type=submit]{
-    width: 250px;
+    width: 200px;
     height: 50px;
     font-size: 20px;
     color: black;
