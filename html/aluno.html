@@ -16,13 +16,13 @@
             </div>
             <div id="formulario">
                 <h1>login</h1>
-                <p>seja bem vindo mpressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto, login</p>
+                <p>Se você já é cliente, insira seus dados:</p><br>
                 <form action="login.php" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-symbols-outlined">
                             person
                             </span>
-                        <input type="email" name="login" id="ilogin" placeholder="Digite seu email" autocomplete="email" required maxlength="30">
+                        <input type="email" name="login" id="ilogin" placeholder="Digite seu email" autocomplete="email" required maxlength="30"><br><br>
                         <label for="ilogin">Login</label>
 
                     </div>
@@ -30,14 +30,18 @@
                         <span class="material-symbols-outlined">
                             password
                             </span>
-                        <input type="password" name="Senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required minlength="6" maxlength="20">
+                        <input type="password" name="Senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" required minlength="6" maxlength="20"><br><br>
                         <label for="isenha">Senha</label>
 
                     </div>
                     <input type="submit" value="Acessar">
                     <a href="Esqueci.html" class="botao">Esqueci a senha
                        <i class="material-symbols-outlined">mail</i>
-                    </a>
+                    </a><br>
+                    <div class="prop">
+                        <p>É seu primeiro acesso como cliente?
+                            <a href="SignForm.html">Clique aqui</a> para cadastrar</p>
+                    </div>
                 </form>
             </div>
         </section>
