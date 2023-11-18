@@ -21,7 +21,7 @@
 }
 @media screen and (min-width: 992px){
     body{
-        background-image: linear-gradient(to top ,aqua , blue);
+        background-image: linear-gradient(to top ,rgb(225, 231, 231) , #CEE161);
     }
     section#login{
 
