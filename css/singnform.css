@@ -15,7 +15,7 @@ body{
  }
  @media screen and (max-width: 1850px) {
      body{
-      background-image: url('..//Imagens/backgroundMobile.jpg');
+        background-image: linear-gradient(to top ,rgb(225, 231, 231) , #CEE161);
       
      }
      
@@ -111,18 +111,18 @@ body{
      position: relative;
      left: 200px;
      top: -95px;
-     height: 25px;
-     width: 120px;
+     height: 27px;
+     width: 125px;
      border-radius: 16px;
  }
  #lsex{
      position: relative;
-     top: -20px;  
+     top: -55px;  
      border-radius: 16px; 
  }
  #ssex{
      position: relative;
-     top: -20px; 
+     top: -55px; 
      width: 120px;
      height: 20px; 
      height: 26px;  
@@ -130,7 +130,7 @@ body{
  }
  #lcivil{
      position: relative;
-     top: -66px;
+     top: -101px;
      left: 200px;
      width: 120px;
      height: 26px;  
@@ -138,14 +138,14 @@ body{
  }
  #nascimento{
      position: relative;
-     top: -40px;
+     top: -65px;
      width: 120px;
      height: 23px; 
      border-radius: 16px;  
  }
  #country{
      position: relative;
-     top: -94px;
+     top: -109px;
      left: 198px;
      width: 130px;
      height: 26px; 
@@ -154,7 +154,7 @@ body{
  
  .btns{
      position: relative;
-     top: -50px;
+     top: -75px;
  }
  
  #backbtn{
