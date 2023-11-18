@@ -1,5 +1,8 @@
 # Movimento
+<<<<<<< HEAD
 # Movimento
+=======
+>>>>>>> 71c6ec0c8d9cc10e98d22a19b5aac11a449ad545
 <p>Esse é um projeto de desenvolvimento web com o professor João Da Cunha ao qual estamos desenvolvendo um site para uma academia em html,css,javascrip e php ,o nome da academia é Estação de movimento .</p>
 
 # <h1>Membros do grupo.</h1>
@@ -14,8 +17,13 @@
   1. Figma para desenha o projeto (link do figma).
   2. Discord e Teams para fazer as nossas reuniões.
   3. Chat GPT , youtube , Udemy para adquirir conhecimentos.
+<<<<<<< HEAD
   
     ## O que tem nesse projeto de front-end?
+=======
+
+  ## O que tem nesse projeto de front-end?
+>>>>>>> 71c6ec0c8d9cc10e98d22a19b5aac11a449ad545
   O Site deve ser Web Responsivo Mobile First com ao menos 4 páginas diferentes: 
 
 Página inicial;  
