@@ -75,7 +75,7 @@ body{
      height: 25px;
      border-radius: 16px;
  }
- #Sobrenome{
+ #sobrenome{
     position: relative;
     top: -67PX;
     left: 200px;
@@ -107,7 +107,7 @@ body{
      border-radius: 16px;
     
  }
- #ltel{
+ #ltel ,#tel{
      position: relative;
      left: 200px;
      top: -95px;
@@ -115,7 +115,7 @@ body{
      width: 125px;
      border-radius: 16px;
  }
- #lsex{
+ #sex{
      position: relative;
      top: -55px;  
      border-radius: 16px; 
@@ -128,7 +128,7 @@ body{
      height: 26px;  
      border-radius: 16px;  
  }
- #lcivil{
+ #civil,#lcivil{
      position: relative;
      top: -101px;
      left: 200px;
@@ -136,14 +136,14 @@ body{
      height: 26px;  
      border-radius: 16px; 
  }
- #nascimento{
+ #nascimento1,#nascimento{
      position: relative;
      top: -65px;
      width: 120px;
      height: 23px; 
      border-radius: 16px;  
  }
- #country{
+ #country,#country1{
      position: relative;
      top: -109px;
      left: 198px;
