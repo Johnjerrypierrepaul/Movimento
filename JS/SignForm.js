@@ -12,14 +12,14 @@ savebtn.addEventListener("click" ,save)
 
 function save(){
     var formuData = {
-        name: document.getElementById('nome').value,
-        Lastname: document.getElementById('sobrenome').value,
-        telefone:  document.getElementById('ltel').value,
-        email: document.getElementById('email').value,
-        sexo: document.getElementById('ssex').value,
-        estado_civil: document.getElementById('lcivil').value,
-        Data_nascimento: document.getElementById('nascimento').value,
-        nacionalidade: document.getElementById('country').value,
+        name: document.formlogs.name.value,
+        Lastname: document.formlogs.Lastname.value,
+        telefone:  document.formlogs.telefone.value,
+        email: document.formlogs.email.value,
+        sexo: document.formlogs.sexo.value,
+        estado_civil: document.formlogs.estado_civil.value,
+        Data_nascimento: document.formlogs.Data_nascimento.value,
+        nacionalidade: document.formlogs.nacionalidade.value,
     };
     
     var data = new FormData();
@@ -32,5 +32,9 @@ function save(){
         body: JSON.stringify(formuData)
     })
     .then(function(res){ return res.json(); })
-    .then(function(data){  })
+    .then(function(data){ exibirMensagem(data);  })
+}
+
+function exibirMensagem() {
+    document.getElementById("mensagem").innerText =  "Obrigado por se cadastrar!";
 }

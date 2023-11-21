@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body,html{
-    background-color: aqua;
+    background-image: linear-gradient(to top ,rgb(225, 231, 231) , #CEE161);
     height: 100vh;
     width: 100vw;
 
@@ -56,6 +56,34 @@ div#formulario >p{
  div.campo > label{
     display: none;
  }
+ .btns{
+    position: relative;
+     
+ }
+ #backbtn{
+    position: relative;
+    left: 25px;
+    padding: 8px;
+    border-radius: 6px;
+    color: black;
+       background-color:#CEE161;
+    }
+    #savebtn{
+        position: relative;
+        right:-180px;
+        padding: 8px;
+        border-radius: 6px;
+        color: black;
+       background-color:#CEE161;
+    }
+    #backbtn:hover{
+        color:  rgb(230, 18, 117);
+        background:#b6ce2e;
+     }
+     #savebtn:hover{
+        color:  rgb(230, 18, 117);
+        background:#b6ce2e;
+     }
  div.campo > input{
     width: 80%;
 height: 10%;

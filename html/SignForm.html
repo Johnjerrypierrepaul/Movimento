@@ -17,19 +17,19 @@
             </div>
             <div id="formulario">
                 
-                <form action="login.php" method="post" autocomplete="on">
+                <form name="formlogs" method="post" autocomplete="on">
                     <div>
                         <label>Nome*</label><br>
-                        <input type="nome" name="nome" id="nome" required></div><br>
+                        <input type="nome" name="name" id="nome" required></div><br>
                         <label id="SSobrenome">Sobrenome*</label><br>
-                        <input type="Sobrenome" name="Sobrenome" id="sobrenome" required></div><br>
+                        <input type="Sobrenome" name="Lastname" id="sobrenome" required></div><br>
                         <label id="email1">Email*</label><br>
                         <input type="email" name="email" id="email" required><br>
                         <label id="tel">Telefone*</label><br>
-                        <input type="number" name="Telefone" id="ltel"><br>
+                        <input type="number" name="telefone" id="ltel"><br>
                         <div>
                             <label id="sex">Sexo*</label><br>
-                            <select id="ssex">
+                            <select id="ssex" name="sexo">
                                 <option selected disabled value="">selecione</option>
                                 <option>Masculino</option>
                                 <option>Femenino</option>
@@ -37,7 +37,7 @@
                     </div>
                     <div>
                         <label id="civil">Estado Civil*</label><br>
-                        <select id="lcivil">
+                        <select id="lcivil" name="estado_civil">
                             <option selected disabled value="">selecione</option>
                              <option>Solteiro(a)</option>
                              <option>Casado(a)</option>
@@ -46,13 +46,13 @@
                         </select>
                     </div>
                         <label id="nascimento1">Date de Nascimento*</label><br>
-                        <input type="date" id="nascimento">
+                        <input type="date" id="nascimento" name="Data_nascimento">
                     </div>
                        
                     
                     <div>
                         <label id="country1">Nacionalidade*</label><br>
-                            <select id="country" name="country" class="form-control">
+                            <select id="country" name="nacionalidade" class="form-control">
                                 <option selected disabled value="">selecione</option>
                                 <option value="Afghanistan">Afghanistan</option>
                                 <option value="Åland Islands">Åland Islands</option>
@@ -308,12 +308,13 @@
                     <div>
                         <div class="btns">
                             <button id="backbtn" onclick="getback">Voltar</button>
-                            <button id="savebtn" onclick="save">Salvar</button>
+                            <button id="savebtn" type="button" onclick="save">Salvar</button>
                         </div>
                     </div>
                     
                 </form>
             </div>
+            <div id="mensagem"></div>
         </section>
     </main>
     <script src="../JS/SignForm.js"></script>
