@@ -50,9 +50,13 @@ button {
   padding: 8px;
   border-radius: 5px;
   border: none;
-  color: white;
-  background-color: green;
+  color: black;
+  background-color: #b6ce2e ;
 }
+#new:hover{
+    color:  rgb(230, 18, 117);
+    background:#b6ce2e;
+   }
 
 .divTable {
   padding: 10px;
@@ -193,8 +197,12 @@ tbody tr td.acao {
   padding: 5px 10px; 
   width: 100%;
   border: none;
-  background-color: green;
-  color: white;
+  background-color:#b6ce2e;
+  color: black;
+}
+.modal button:hover{
+  color:  rgb(230, 18, 117);
+  background:#b6ce2e;
 }
 
 .active {
@@ -228,4 +236,24 @@ td button i {
 
 td button i:first-child {
   margin-right: 10px;
+}
+
+
+#backbtn{
+position: relative;
+font-size: 16px;
+padding: 8px;
+border-radius: 6px;
+color: black;
+ background-color:#CEE161;
+}
+
+#backbtn:hover{
+ color:  rgb(230, 18, 117);
+ background:#b6ce2e;
+}
+
+.Soc-Icon{
+  position: relative;
+  
 }
