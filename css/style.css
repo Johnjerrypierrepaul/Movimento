@@ -50,9 +50,9 @@ div#formulario >h1{
 div#formulario >p{
     font-size: 1.5em;
 }
- form > div.campo{
+ 
     
- }
+ 
  div.campo > label{
     display: none;
  }
