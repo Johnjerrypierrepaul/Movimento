@@ -21,7 +21,7 @@
   <h2>Nos utilisamos varias ferramentas para desemvolver o projeto como:</h2>
   1. Canva para desenha o projeto (https://www.canva.com/design/DAFryrRMi3E/4sYtXLNIkTdHtZc1sp8uhw/view?utm_content=DAFryrRMi3E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
-https://www.canva.com/design/DAFryrRMi3E/4sYtXLNIkTdHtZc1sp8uhw/view?utm_content=DAFryrRMi3E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+2. https://www.canva.com/design/DAFryrRMi3E/4sYtXLNIkTdHtZc1sp8uhw/view?utm_content=DAFryrRMi3E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 ).
   2. Discord e Teams para fazer as nossas reuniões.
   3. Chat GPT , youtube , Udemy para adquirir conhecimentos.
